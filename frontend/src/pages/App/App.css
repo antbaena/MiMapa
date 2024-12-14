@@ -1,0 +1,20 @@
+/* App.css */
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Altura mínima de la ventana */
+}
+
+header {
+  flex-shrink: 0; /* No se comprime */
+}
+
+.content {
+  flex-grow: 1; /* Ocupa todo el espacio disponible */
+  padding: 20px; /* Opcional, para espaciado interno */
+}
+
+footer {
+  flex-shrink: 0; /* No se comprime */
+}
